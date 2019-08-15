@@ -20,7 +20,7 @@ class LoginForm extends Component {
             <Form className="form">
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="id_username" className="form__label form__label_bold">Имя пользователя</label>
+                        <label htmlFor="id_username">Имя пользователя</label>
                         <input
                             type="text"
                             name="username"
@@ -36,7 +36,7 @@ class LoginForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="id_password" className="form__label form__label_bold">Пароль</label>
+                        <label htmlFor="id_password">Пароль</label>
                         <input
                             type="password"
                             name="password"

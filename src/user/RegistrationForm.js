@@ -37,7 +37,7 @@ class RegistrationForm extends Component {
             <Form className="form">
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="id_username" className="form__label form__label_bold">Имя пользователя</label>
+                        <label htmlFor="id_username">Имя пользователя</label>
                         <input
                             type="text"
                             name="username"
@@ -52,7 +52,7 @@ class RegistrationForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="first_name" className="form__label form__label_bold">Имя</label>
+                        <label htmlFor="first_name">Имя</label>
                         <input
                             type="text"
                             name="first_name"
@@ -66,7 +66,7 @@ class RegistrationForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="last_name" className="form__label form__label_bold">Фамилия</label>
+                        <label htmlFor="last_name">Фамилия</label>
                         <input
                             type="text"
                             name="last_name"
@@ -80,7 +80,7 @@ class RegistrationForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="email" className="form__label form__label_bold">E-mail</label>
+                        <label htmlFor="email">E-mail</label>
                         <input
                             type="email"
                             name="email"
@@ -94,7 +94,7 @@ class RegistrationForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="password1" className="form__label form__label_bold">Пароль</label>
+                        <label htmlFor="password1">Пароль</label>
                         <input
                             type="password"
                             name="password1"
@@ -109,7 +109,7 @@ class RegistrationForm extends Component {
                 </div>
                 <div className="row row_justify_center">
                     <div className="form__field">
-                        <label htmlFor="password2" className="form__label form__label_bold">Подтверждение пароля</label>
+                        <label htmlFor="password2">Подтверждение пароля</label>
                         <input
                             type="password"
                             name="password2"

@@ -52,7 +52,6 @@ class LoginForm extends Component {
                     <input
                         type="submit"
                         value="Войти"
-                        onClick={this.submitForm}
                         className="form__button"
                     />
                 </div>
